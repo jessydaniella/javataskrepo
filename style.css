@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(235, 223, 221);
+    width:500px;
+    height: 650px;
+    margin: 0 445px;
+}
+#heading{
+     padding-top: 20px;
+     font-size: 30px;
+     color: black;
+}
+#counter{
+    font-size: 75px;
+}
+#button-wrapper{
+    display: flex;
+    gap: 15px;
+}
+#decrease-button, #reset-button, #increase-button{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 7px;
+    font-size: 14px;
+}
+#increase-button:active{
+    border: 2px solid blue;
+}
+#decrease-button:active{
+    border: 2px solid blue;
+}
+#reset-button:active{
+    border:2px solid blue;
+}
+.counter-red{
+   color: red;
+}
+.counter-green{
+    color: green;
+}
+
